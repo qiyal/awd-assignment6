@@ -1,0 +1,9 @@
+<div [ngStyle]="{'border': '1px solid #000', 'padding': '0 0 0 25px'}">
+  <h1>From Parent2Component</h1>
+  <p>Parent2 value: {{this.parent2Value}}</p>
+  <small [style.color]="'red'">Change value from 'Hello' to 'New Hello'</small>
+
+  <br><br>
+  <h3>Parent2Component child</h3>
+  <app-child3></app-child3>
+</div>
